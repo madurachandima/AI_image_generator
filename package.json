@@ -1,10 +1,11 @@
 {
   "name": "ai_image_generator",
   "version": "1.0.0",
-  "description": "",
+  "description": " run dev-- npm run dev ----- run prod npm start",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev":"nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/madurachandima/AI_image_generator/issues"
   },
-  "homepage": "https://github.com/madurachandima/AI_image_generator#readme"
+  "homepage": "https://github.com/madurachandima/AI_image_generator#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0"
+  }
 }
