@@ -5,7 +5,7 @@ const routes = require('./routes/openAiRoutes');
 
 
 
-const port =  5000;
+const port =  3000;
 
 const app = express();
 
