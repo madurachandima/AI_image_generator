@@ -24,7 +24,7 @@ const generateImage = async (req, res) => {
 
   try {
     const response = await openai.createImage({
-      prompt: "polar bear on ice real image",
+      prompt: prompt,
       n: 1,
       size: imageSize,
     });
